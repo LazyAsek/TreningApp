@@ -1,9 +1,9 @@
 
 const dayArray = ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"]
 
-const  MondayWorkout = ["pushup","explosive pushup","diamond pushup","inclicne pushup","archer","incline 3 book","band","dumbell 7kg","triceps drop set 5","dip","super set incline3book->incline->explosive->noraml","band streach"]
+const  MondayWorkout = ["pushup","explosive pushup","diamond pushup","inclicne pushup","knee archer","incline 3 book","band","dumbell drop set 7(5)kg","triceps drop set 5(3)","dip","(0)super set incline3book->incline->explosive->noraml->knee","band streach","1:15;15"]
 
-const TuesdayWorkout = []
+const TuesdayWorkout = ["pullups","narrow grip","wide grip","band","biceps drop set 6kg(5)","hang 60s","forearmsdown 6kg dropset(5)","forearms up 6kg(4)","1h"]
 
 const WednesdayWorkout= []
 
@@ -56,8 +56,8 @@ function setsMonday(a){
         checkbox(3)
         }  
     if(a == 6){
-        workoutDay.innerHTML += " 3x10 "
-        checkbox(3)
+        workoutDay.innerHTML += " 2x10 "
+        checkbox(2)
         }  
     if(a == 7){
         workoutDay.innerHTML += " 3x10 "
@@ -86,6 +86,34 @@ function setsMonday(a){
 function setsTuesday(a){
 
     if(a == 0){
+        workoutDay.innerHTML += " 5x10 "
+        checkbox(5)
+    }
+    if(a == 1){
+        workoutDay.innerHTML += " 1x10 "
+        checkbox(1)
+    }
+    if(a == 2){
+        workoutDay.innerHTML += " 1x10 "
+        checkbox(1)
+    }
+    if(a == 3){
+        workoutDay.innerHTML += " to fail "
+        checkbox(2)
+    }
+    if(a == 4){
+        workoutDay.innerHTML += " 4x10 "
+        checkbox(4)
+    }
+    if(a == 5){
+        workoutDay.innerHTML += " 1 "
+        checkbox(1)
+    }
+    if(a == 6){
+        workoutDay.innerHTML += " 2x10 "
+        checkbox(2)
+    }
+    if(a == 7){
         workoutDay.innerHTML += " 2x10 "
         checkbox(2)
     }
