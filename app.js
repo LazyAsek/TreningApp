@@ -5,7 +5,7 @@ const  MondayWorkout = ["pushup","explosive pushup","diamond pushup","inclicne p
 
 const TuesdayWorkout = ["pullups","narrow grip","wide grip","band","biceps drop set 6kg(5)","hang 60s","forearmsdown 6kg dropset(5)","forearms up 6kg(4)","1h"]
 
-const WednesdayWorkout= []
+const WednesdayWorkout= ["crunches","2leg rises","sited crunches","grinder","rusian twist","bicycle","side crunches","walking plank","hang crunch straigt leg"]
 
 const ThursdayWorkout = []
 
@@ -123,12 +123,41 @@ function setsTuesday(a){
     
 function setsWednesday(a){
     if(a == 0){
-        workoutDay.innerHTML += " 40 "
-        checkbox(1)
+        workoutDay.innerHTML += " 3x10 "
+        checkbox(3)
     }
-    
-   
+    if(a == 1){
+        workoutDay.innerHTML += " 3x10 "
+        checkbox(3)
+    }   
+    if(a == 2){
+        workoutDay.innerHTML += " 3x10 "
+        checkbox(3)
     }
+    if(a == 3){
+        workoutDay.innerHTML += " 60s "
+        checkbox(3)
+    }   
+    if(a == 4){
+        workoutDay.innerHTML += " 60s "
+               
+    }
+    if(a == 5){
+        workoutDay.innerHTML += " 60s "
+    }
+    if(a == 6){
+        workoutDay.innerHTML += " 3x10 "
+        checkbox(3)
+    }
+    if(a == 7){
+        workoutDay.innerHTML += " 60s "
+        checkbox(3)
+    }
+    if(a == 8){
+        workoutDay.innerHTML += " 3x10 "
+        checkbox(3)
+    }
+}    
     
     
 function setsThursday(a){
